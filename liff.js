@@ -41,10 +41,8 @@ function uiToggleLedButton(state) {
 
     if (state) {
       el.classList.add("led-on");
-      uiCountPressButton();
     } else {
       el.classList.remove("led-on");
-      uiCountPressButton();
     }
 }
 
